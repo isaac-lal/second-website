@@ -191,7 +191,7 @@ nav {
 }
 
 /* Redirect Buttons */
-.about-button {
+.btn {
   color: white;
   text-decoration: none;
   display: inline-block;
@@ -206,28 +206,8 @@ nav {
   cursor: pointer;
 }
 
-.about-button:hover {
-  background: orange;
-  transition: 1s;
-}
-
-.work-button {
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  border: 2px solid white;
-  padding: 12px 34px;
-  margin: 10px;
-  font-size: 23px;
-  position: relative;
-  top: -35px;
-  font-style: bold;
-  background: transparent;
-  cursor: pointer;
-}
-
-.work-button:hover {
-  background: crimson;
+.btn:hover {
+  background: deepskyblue;
   transition: 1s;
 }
 
@@ -301,7 +281,7 @@ nav {
 
 /* Pro Langs */
 /* Tools */
-/* ---------- ABOUT ---------- */
+/* ---------- CONTACT ---------- */
 /* Layout */
 .container {
   width: 100%;
