@@ -25,39 +25,15 @@ nav {
   padding: 10px 24px;
 }
 
-/* Logo: INDEX */
-.index-logo {
+/* Logo */
+.logo {
   text-align: left;
   font-size: 45px;
   font-weight: 900;
   color: deepskyblue;
 }
 
-/* Logo: ABOUT */
-.about-logo {
-  text-align: left;
-  font-size: 45px;
-  font-weight: 900;
-  color: orange;
-}
-
-/* Logo: WORK */
-.work-logo {
-  text-align: left;
-  font-size: 45px;
-  font-weight: 900;
-  color: crimson;
-}
-
-/* Logo: CONTACT */
-.contact-logo {
-  text-align: left;
-  font-size: 45px;
-  font-weight: 900;
-  color: magenta;
-}
-
-/* Nav Menu: DEFAULT */
+/* Menu Display */
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -66,18 +42,18 @@ nav {
   list-style: none;
 }
 
-/* Nav Link: INDEX */
-.index-nav-link {
+/* Links */
+.nav-link {
   color: white;
   text-decoration: none;
   transition: 0.25s;
 }
 
-.index-nav-link:hover {
+.nav-link:hover {
   color: deepskyblue;
 }
 
-.index-nav-link:after {
+.nav-link:after {
   content: "";
   width: 0%;
   height: 2px;
@@ -87,86 +63,11 @@ nav {
   transition: 0.25s;
 }
 
-.index-nav-link:hover::after {
+.nav-link:hover::after {
   width: 100%;
 }
 
-/* Nav Link: ABOUT */
-.about-nav-link {
-  color: white;
-  text-decoration: none;
-  transition: 0.25s;
-}
-
-.about-nav-link:hover {
-  color: orange;
-}
-
-.about-nav-link:after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: orange;
-  display: block;
-  margin: auto;
-  transition: 0.25s;
-}
-
-.about-nav-link:hover::after {
-  width: 100%;
-}
-
-/* Nav Link: WORK */
-.work-nav-link {
-  color: white;
-  text-decoration: none;
-  transition: 0.25s;
-}
-
-.work-nav-link:hover {
-  color: crimson;
-}
-
-.work-nav-link:after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: crimson;
-  display: block;
-  margin: auto;
-  transition: 0.25s;
-}
-
-.work-nav-link:hover::after {
-  width: 100%;
-}
-
-/* Nav Link: CONTACT */
-.contact-nav-link {
-  color: white;
-  text-decoration: none;
-  transition: 0.25s;
-}
-
-.contact-nav-link:hover {
-  color: magenta;
-}
-
-.contact-nav-link:after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: magenta;
-  display: block;
-  margin: auto;
-  transition: 0.25s;
-}
-
-.contact-nav-link:hover::after {
-  width: 100%;
-}
-
-/* JavaScript Menu */
+/* JavaScript Hamburger Menu */
 .hamburger {
   display: none;
   cursor: pointer;
@@ -252,7 +153,7 @@ nav {
     font-size: 40px;
   }
 }
-/* ---------- INDEX ---------- */
+/* ---------- HOME ---------- */
 /* Layout */
 .home {
   text-align: center;
@@ -375,32 +276,33 @@ nav {
     width: 225px;
   }
 }
+/* ---------- ABOUT ---------- */
+/* Intro */
 .about {
-  color: white;
   position: relative;
 }
 
 .about h1 {
   padding: 20px 0;
   font-size: 50px;
+  text-align: center;
 }
 
-.about h2 {
-  padding-bottom: 20px;
-}
-
-.work-beginning {
+/* ---------- WORK ---------- */
+/* Layout */
+.work {
   padding: 0px 10px;
 }
 
-.welcome h1 {
-  font-size: 30px;
+.work h1 {
+  font-size: 50px;
+  text-align: center;
 }
 
-.languages-tools:hover {
-  color: deepskyblue;
-}
-
+/* Pro Langs */
+/* Tools */
+/* ---------- ABOUT ---------- */
+/* Layout */
 .container {
   width: 100%;
   height: 100vh;
@@ -409,6 +311,7 @@ nav {
   justify-content: center;
 }
 
+/* Contact Form */
 form {
   background: #212121;
   display: flex;
@@ -423,7 +326,13 @@ form h1 {
   font-size: 65px;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+form h4 {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0px;
 }
 
 form input, form textarea {
@@ -462,113 +371,35 @@ footer {
   background: #212121;
 }
 
-/* Socials: INDEX */
-.index-socials {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-.index-socials li {
-  margin: 0px 10px;
-  cursor: pointer;
-}
-
-.index-socials a {
-  text-decoration: none;
-  color: white;
-}
-
-.index-socials a i {
-  font-size: 30px;
-  transition: color 0.5s ease;
-}
-
-.index-socials a:hover i {
-  color: deepskyblue;
-}
-
-/* Socials: ABOUT */
-.about-socials {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-.about-socials li {
-  margin: 0px 10px;
-  cursor: pointer;
-}
-
-.about-socials a {
-  text-decoration: none;
-  color: white;
-}
-
-.about-socials a i {
-  font-size: 30px;
-  transition: color 0.5s ease;
-}
-
-.about-socials a:hover i {
-  color: orange;
-}
-
-/* Socials: WORK */
-.work-socials {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-.work-socials li {
-  margin: 0px 10px;
-  cursor: pointer;
-}
-
-.work-socials a {
-  text-decoration: none;
-  color: white;
-}
-
-.work-socials a i {
-  font-size: 30px;
-  transition: color 0.5s ease;
-}
-
-.work-socials a:hover i {
-  color: crimson;
-}
-
-/* Socials: CONTACT */
-.contact-socials {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-.contact-socials li {
-  margin: 0px 10px;
-  cursor: pointer;
-}
-
-.contact-socials a {
-  text-decoration: none;
-  color: white;
-}
-
-.contact-socials a i {
-  font-size: 30px;
-  transition: color 0.5s ease;
-}
-
-.contact-socials a:hover i {
-  color: magenta;
-}
-
 footer p {
   text-align: center;
   color: white;
   font-size: 14px;
   padding-top: 15px;
+}
+
+/* Socials Links */
+.socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.socials li {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+
+.socials a i {
+  font-size: 30px;
+  transition: color 0.5s ease;
+}
+
+.socials a:hover i {
+  color: deepskyblue;
 }/*# sourceMappingURL=style.css.map */

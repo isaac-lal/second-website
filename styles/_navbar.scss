@@ -9,39 +9,15 @@ nav {
     padding: 10px 24px;
 }
 
-/* Logo: INDEX */
-.index-logo {
+/* Logo */
+.logo {
     text-align: left;
     font-size: 45px;
     font-weight: 900;
     color: deepskyblue;
 }
 
-/* Logo: ABOUT */
-.about-logo {
-    text-align: left;
-    font-size: 45px;
-    font-weight: 900;
-    color: orange;
-}
-
-/* Logo: WORK */
-.work-logo {
-    text-align: left;
-    font-size: 45px;
-    font-weight: 900;
-    color: crimson;
-}
-
-/* Logo: CONTACT */
-.contact-logo {
-    text-align: left;
-    font-size: 45px;
-    font-weight: 900;
-    color: magenta;
-}
-
-/* Nav Menu: DEFAULT */
+/* Menu Display */
 .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -50,18 +26,18 @@ nav {
     list-style: none;
 }
 
-/* Nav Link: INDEX */
-.index-nav-link {
+/* Links */
+.nav-link {
     color: white;
     text-decoration: none;
     transition: 0.25s;
 }
 
-.index-nav-link:hover {
+.nav-link:hover {
     color: deepskyblue;
 }
 
-.index-nav-link:after {
+.nav-link:after {
     content: '';
     width: 0%;
     height: 2px;
@@ -71,86 +47,11 @@ nav {
     transition: 0.25s;
 }
 
-.index-nav-link:hover::after {
+.nav-link:hover::after {
     width: 100%;
 }
 
-/* Nav Link: ABOUT */
-.about-nav-link {
-    color: white;
-    text-decoration: none;
-    transition: 0.25s;
-}
-
-.about-nav-link:hover {
-    color: orange;
-}
-
-.about-nav-link:after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: orange;
-    display: block;
-    margin: auto;
-    transition: 0.25s;
-}
-
-.about-nav-link:hover::after {
-    width: 100%;
-}
-
-/* Nav Link: WORK */
-.work-nav-link {
-    color: white;
-    text-decoration: none;
-    transition: 0.25s;
-}
-
-.work-nav-link:hover {
-    color: crimson;
-}
-
-.work-nav-link:after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: crimson;
-    display: block;
-    margin: auto;
-    transition: 0.25s;
-}
-
-.work-nav-link:hover::after {
-    width: 100%;
-}
-
-/* Nav Link: CONTACT */
-.contact-nav-link {
-    color: white;
-    text-decoration: none;
-    transition: 0.25s;
-}
-
-.contact-nav-link:hover {
-    color: magenta;
-}
-
-.contact-nav-link:after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: magenta;
-    display: block;
-    margin: auto;
-    transition: 0.25s;
-}
-
-.contact-nav-link:hover::after {
-    width: 100%;
-}
-
-/* JavaScript Menu */
+/* JavaScript Hamburger Menu */
 .hamburger {
     display: none;
     cursor: pointer;

@@ -7,113 +7,35 @@ footer {
     background: #212121; 
 }
 
-/* Socials: INDEX */
-.index-socials {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.index-socials li {
-    margin: 0px 10px;
-    cursor: pointer;
-}
-
-.index-socials a {
-    text-decoration: none;
-    color: white;
-}
-
-.index-socials a i {
-    font-size: 30px;
-    transition: color .5s ease
-}
-
-.index-socials a:hover i {
-    color: deepskyblue;
-}
-
-/* Socials: ABOUT */
-.about-socials {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.about-socials li {
-    margin: 0px 10px;
-    cursor: pointer;
-}
-
-.about-socials a {
-    text-decoration: none;
-    color: white;
-}
-
-.about-socials a i {
-    font-size: 30px;
-    transition: color .5s ease
-}
-
-.about-socials a:hover i {
-    color: orange;
-}
-
-/* Socials: WORK */
-.work-socials {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.work-socials li {
-    margin: 0px 10px;
-    cursor: pointer;
-}
-
-.work-socials a {
-    text-decoration: none;
-    color: white;
-}
-
-.work-socials a i {
-    font-size: 30px;
-    transition: color .5s ease
-}
-
-.work-socials a:hover i {
-    color: crimson;
-}
-
-/* Socials: CONTACT */
-.contact-socials {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.contact-socials li {
-    margin: 0px 10px;
-    cursor: pointer;
-}
-
-.contact-socials a {
-    text-decoration: none;
-    color: white;
-}
-
-.contact-socials a i {
-    font-size: 30px;
-    transition: color .5s ease
-}
-
-.contact-socials a:hover i {
-    color: magenta;
-}
-
 footer p {
     text-align: center;
     color: white;
     font-size: 14px;
     padding-top: 15px;
+}
+
+/* Socials Links */
+.socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.socials li {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i {
+    font-size: 30px;
+    transition: color .5s ease
+}
+
+.socials a:hover i {
+    color: deepskyblue;
 }
