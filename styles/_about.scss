@@ -26,14 +26,13 @@
 .about-text p {
     color: #a6a6a6;
     line-height: 28px;
-    
     font-size: 15px;
 }
 
 /* Smaller Devices */
 @media (max-width: 1024px) {
     .about {
-        padding: 28px 8%;
+        padding: 37px 7%;
         padding-bottom: 0px;
         grid-template-columns: 1fr;
     }
@@ -60,15 +59,28 @@
 
 @media (max-width: 768px) {
     .about {
-        padding: 24px 6%;
-        padding-bottom: 0px;
+        padding: 34px 4%;
     }
-    
+
     .about-text h1 {
         font-size: 34px;
     }
     
     .about-text p {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 31px 2%;
+    }
+
+    .about-text h1 {
+        font-size: 31px;
+    }
+    
+    .about-text p {
+        font-size: 10px;
     }
 }

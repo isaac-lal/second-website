@@ -2,16 +2,16 @@
 
 /* Background Image */
 .home {
+    padding: 120px 10%;
     height: 100vh;
     width: 100%;
-    background-image: url(../images/home-background.jpeg);
+    position: relative;
+    background: url(../images/home-background.jpg);
     background-size: cover;
     background-position: center;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
     align-items: center;
-    padding: 120px 10%;
+    justify-content: flex-start;
 }
 
 /* Home Styling */
@@ -28,8 +28,7 @@
 .home-text h3 {
     font-size: 30px;
     position: relative;
-    top: 100px;
-    right: -22px;
+    top: 200px;
 }
 
 .home-text h4 {
@@ -38,30 +37,37 @@
     font-weight: bolder;
 }
 
-/* Redirect Buttons */
-.link-button {
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    border: 2px solid white;
-    padding: 12px 34px;
-    margin: 10px;
-    font-size: 23px;
+/* Socials Links */
+.socials {
+    display: flex;
     position: relative;
-    font-style: bold;
-    background: transparent;
-    cursor: pointer; 
+    bottom: -180px;
 }
 
-.link-button:hover {
-    background: deepskyblue;
-    transition: 1s;
+.socials li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i {
+    font-size: 50px;
+    transition: color .5s ease
+}
+
+.socials a:hover i {
+    color: deepskyblue;
 }
 
 /* Smaller Screens */
 @media (max-width: 1024px) {
     .home {
-        padding: 100px 8%;
+        padding: 110px 7%;
+        height: 80vh;
     }
 
     .home-text h1 {
@@ -74,21 +80,25 @@
     
     .home-text h3 {
         font-size: 26px;
+        position: relative;
+        top: 100px;
     }
     
     .home-text h4 {
         font-size: 17px;
     }
-    
-    .link-button {
-        font-size: 19px;
-        top: -20px;
+
+    .socials a i {
+        font-size: 44px;
+        position: relative;
+        top: -90px;
     }
 }
 
 @media (max-width: 768px) {
     .home {
-        padding: 80px 6%;
+        padding: 100px 4%;
+        height: 65vh;
     }
 
     .home-text h1 {
@@ -101,14 +111,54 @@
     
     .home-text h3 {
         font-size: 23px;
+        position: relative;
+        top: 100px;
     }
     
     .home-text h4 {
         font-size: 15px;
     }
+
+    .socials a i {
+        font-size: 40px;
+        position: relative;
+        top: -90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home {
+        padding: 80px 2%;
+        height: 50vh;
+    }
+
+    .home-text h1 {
+        position: relative;
+        bottom: -20px;
+        font-size: 62px;
+    }
     
-    .link-button {
-        font-size: 16px;
-        top: -30px;
+    .home-text h2 {
+        position: relative;
+        bottom: -30px;
+        font-size: 12px;
+    }
+    
+    .home-text h3 {
+        font-size: 20px;
+        position: relative;
+        top: 55px;
+    }
+    
+    .home-text h4 {
+        position: relative;
+        bottom: -10px;
+        font-size: 13px;
+    }
+
+    .socials a i {
+        font-size: 36px;
+        position: relative;
+        top: -130px;
     }
 }

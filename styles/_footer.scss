@@ -7,35 +7,49 @@ footer {
     background: #212121; 
 }
 
-footer p {
+footer h2 {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    padding: 15px 0px;
+}
+
+footer h3 {
     text-align: center;
     color: white;
     font-size: 14px;
-    padding-top: 15px;
 }
 
-/* Socials Links */
-.socials {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+/* Smaller Devices */
+@media (max-width: 1024px) {
+    footer h2 {
+        padding: 13px 0px;
+        font-size: 21px;
+    }
+    
+    footer h3 {
+        font-size: 12px;
+    }
 }
 
-.socials li {
-    margin: 0px 10px;
-    cursor: pointer;
+@media (max-width: 768px) {
+    footer h2 {
+        padding: 11px 0px;
+        font-size: 19px;
+    }
+    
+    footer h3 {
+        font-size: 11px;
+    }
 }
 
-.socials a {
-    text-decoration: none;
-    color: white;
-}
-
-.socials a i {
-    font-size: 30px;
-    transition: color .5s ease
-}
-
-.socials a:hover i {
-    color: deepskyblue;
+@media (max-width: 480px) {
+    footer h2 {
+        padding: 9px 0px;
+        font-size: 17px;
+    }
+    
+    footer h3 {
+        font-size: 10px;
+    }
 }

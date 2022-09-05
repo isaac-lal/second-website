@@ -30,6 +30,7 @@
 
 .tool-frames {
     padding: 5px;
+    align-items: center;
 }
 
 /* Projects */
@@ -48,10 +49,10 @@
 
 .project-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     grid-gap: 20px;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .project-row {
@@ -86,7 +87,7 @@
 /* Smaller Devices */
 @media (max-width: 1024px) {
     .work {
-        padding: 34px 8%;
+        padding: 37px 7%;
     }
     
     .work h1 {
@@ -108,6 +109,10 @@
         font-size: 21px;
     }
     
+    .project-row {
+        padding: 48px 26px;
+    }
+
     .project-row i {
         font-size: 39px;
     }
@@ -123,9 +128,9 @@
 
 @media (max-width: 768px) {
     .work {
-        padding: 31px 6%;
+        padding: 34px 4%;
     }
-    
+
     .work h1 {
         font-size: 35px;
     }
@@ -144,6 +149,14 @@
     .project-title h2 {
         font-size: 19px;
     }
+
+    .project-content {
+        grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    }
+
+    .project-row {
+        padding: 44px 23px;
+    }
     
     .project-row i {
         font-size: 35px;
@@ -155,5 +168,49 @@
 
     .project-row p {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .work {
+        padding: 28px 2%;
+    }
+
+    .work h1 {
+        font-size: 33px;
+    }
+    .work h3 {
+        font-size: 12px;
+    }
+    
+    .work a {
+        font-size: 32px;
+    }
+
+    .project-title h1 {
+        font-size: 33px;
+    }
+    
+    .project-title h2 {
+        font-size: 17px;
+    }
+
+    .project-content {
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    }
+    .project-row {
+        padding: 41px 20px;
+    }
+    
+    .project-row i {
+        font-size: 32px;
+    }
+    
+    .project-row h2 {
+        font-size: 16px;
+    }
+
+    .project-row p {
+        font-size: 10px;
     }
 }

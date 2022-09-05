@@ -124,7 +124,7 @@ form button:hover {
 @media (max-width: 1024px) {
     .contact {
         grid-template-columns: 1fr;
-        padding: 15px 8%;
+        padding: 24px 7%;
     } 
 
     .contact-details img {
@@ -173,8 +173,8 @@ form button:hover {
 
 @media (max-width: 768px) {
     .contact {
-        padding: 12px 6%;
-    }
+        padding: 20px 4%;
+    } 
 
     .contact-form {
         order: 2;
@@ -212,5 +212,44 @@ form button:hover {
     form button {
         font-size: 13px;
         width: 115px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        padding: 17px 2%;
+    } 
+
+    .contact-details img {
+        width: 175px;
+    }
+    
+    .contact-details h1 {
+        font-size: 56px;
+    }
+    
+    .contact-details h4 {
+        font-size: 21px;
+    }
+    
+    .contact-details h2 {
+        font-size: 19px;
+    }
+    
+    .contact-form h1 {
+        font-size: 29px;
+    }
+    
+    .contact-form h4 {
+        font-size: 12px;
+    }
+    
+    .contact-form form input, form textarea {
+        font-size: 10px;
+    }
+    
+    form button {
+        font-size: 11px;
+        width: 100px;
     }
 }
