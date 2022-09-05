@@ -1,12 +1,74 @@
 /* ---------- ABOUT ---------- */
 
-/* Intro */
+/* Text Styling */
 .about {
-    position: relative;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 2rem;
+    padding: 40px 10%;
+    padding-bottom: 0px;
 }
 
-.about h1 {
-    padding: 20px 0;
-    font-size: 50px;
-    text-align: center;
+.about img {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-text h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #a6a6a6;
+    line-height: 28px;
+    
+    font-size: 15px;
+}
+
+/* Smaller Devices */
+@media (max-width: 1024px) {
+    .about {
+        padding: 28px 8%;
+        padding-bottom: 0px;
+        grid-template-columns: 1fr;
+    }
+    
+    .about-text h1 {
+        font-size: 39px;
+    }
+    
+    .about-text p {
+        font-size: 13px;
+    }
+
+    .about-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .about-image img {
+        max-width: 100%;
+        width: 700px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 24px 6%;
+        padding-bottom: 0px;
+    }
+    
+    .about-text h1 {
+        font-size: 34px;
+    }
+    
+    .about-text p {
+        font-size: 12px;
+    }
 }

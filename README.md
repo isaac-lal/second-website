@@ -1,6 +1,8 @@
 # My personal website: isaaclal.com
 
-### ✅ Coded myself using HTML, CSS, and JavaScript
-### 🚫 Did not use website builders such as SquareSpace, Wix, Weebly, etc. 
+## Coded myself by using Programming Languages: 
+- HTML
+- CSS/Sass
+- JavaScript
 
-Domain name obtained from domain.com & hosted through Hostinger.
+### Domain name obtained from domain.com & hosted through Hostinger.

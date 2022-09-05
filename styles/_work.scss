@@ -2,14 +2,158 @@
 
 /* Layout */
 .work {
-    padding: 0px 10px;
+    padding: 40px 10%;
 }
 
 .work h1 {
-    font-size: 50px;
     text-align: center;
+    font-size: 45px;
+}
+.work h3 {
+    color: #a6a6a6;
+    text-align: left;
+    font-size: 20px;
 }
 
-/* Pro Langs */
+.work a {
+    font-size: 40px;
+}
 
-/* Tools */
+/* Skills */
+.pro-langs {
+    padding: 5px;
+}
+
+.pro-langs h2 {
+    color: #a6a6a6;
+}
+
+.tool-frames {
+    padding: 5px;
+}
+
+/* Projects */
+.project-title h1 {
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+}
+
+.project-title h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #a6a6a6;
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    grid-gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.project-row {
+    background-color: #212121;
+    padding: 55px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .35s;
+}
+
+.project-row i {
+    color: deepskyblue;
+    margin-bottom: 20px;
+    font-size: 44px;
+}
+
+.project-row h2 {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.project-row p {
+    color: #a6a6a6;
+    font-size: 15px;
+}
+
+.project-row:hover {
+    transform: translateY(-8px);
+}
+
+/* Smaller Devices */
+@media (max-width: 1024px) {
+    .work {
+        padding: 34px 8%;
+    }
+    
+    .work h1 {
+        font-size: 38px;
+    }
+    .work h3 {
+        font-size: 17px;
+    }
+    
+    .work a {
+        font-size: 36px;
+    }
+
+    .project-title h1 {
+        font-size: 38px;
+    }
+    
+    .project-title h2 {
+        font-size: 21px;
+    }
+    
+    .project-row i {
+        font-size: 39px;
+    }
+    
+    .project-row h2 {
+        font-size: 20px;
+    }
+
+    .project-row p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .work {
+        padding: 31px 6%;
+    }
+    
+    .work h1 {
+        font-size: 35px;
+    }
+    .work h3 {
+        font-size: 15px;
+    }
+    
+    .work a {
+        font-size: 34px;
+    }
+
+    .project-title h1 {
+        font-size: 36px;
+    }
+    
+    .project-title h2 {
+        font-size: 19px;
+    }
+    
+    .project-row i {
+        font-size: 35px;
+    }
+    
+    .project-row h2 {
+        font-size: 18px;
+    }
+
+    .project-row p {
+        font-size: 12px;
+    }
+}
