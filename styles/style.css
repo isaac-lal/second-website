@@ -219,7 +219,7 @@ header.sticky {
 
 .home-text h4 {
   color: #a6a6a6;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bolder;
 }
 
@@ -256,18 +256,18 @@ header.sticky {
     height: 80vh;
   }
   .home-text h1 {
-    font-size: 77px;
+    font-size: 84px;
   }
   .home-text h2 {
-    font-size: 17px;
+    font-size: 18px;
   }
   .home-text h3 {
-    font-size: 26px;
+    font-size: 27px;
     position: relative;
     top: 100px;
   }
   .home-text h4 {
-    font-size: 17px;
+    font-size: 19px;
   }
   .socials a i {
     font-size: 44px;
@@ -281,18 +281,18 @@ header.sticky {
     height: 65vh;
   }
   .home-text h1 {
-    font-size: 71px;
+    font-size: 77px;
   }
   .home-text h2 {
-    font-size: 15px;
+    font-size: 16px;
   }
   .home-text h3 {
-    font-size: 23px;
+    font-size: 24px;
     position: relative;
     top: 100px;
   }
   .home-text h4 {
-    font-size: 15px;
+    font-size: 17px;
   }
   .socials a i {
     font-size: 40px;
@@ -308,22 +308,22 @@ header.sticky {
   .home-text h1 {
     position: relative;
     bottom: -20px;
-    font-size: 62px;
+    font-size: 70px;
   }
   .home-text h2 {
     position: relative;
     bottom: -30px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .home-text h3 {
-    font-size: 20px;
+    font-size: 21px;
     position: relative;
     top: 55px;
   }
   .home-text h4 {
     position: relative;
     bottom: -10px;
-    font-size: 13px;
+    font-size: 15px;
   }
   .socials a i {
     font-size: 36px;
@@ -358,7 +358,7 @@ header.sticky {
 .about-text p {
   color: #a6a6a6;
   line-height: 28px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* Smaller Devices */
@@ -372,7 +372,7 @@ header.sticky {
     font-size: 39px;
   }
   .about-text p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .about-image {
     text-align: center;
@@ -392,7 +392,7 @@ header.sticky {
     font-size: 34px;
   }
   .about-text p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (max-width: 480px) {
@@ -403,7 +403,7 @@ header.sticky {
     font-size: 31px;
   }
   .about-text p {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 /* ---------- WORK ---------- */
@@ -414,17 +414,14 @@ header.sticky {
 
 .work h1 {
   text-align: center;
-  font-size: 45px;
+  font-size: 47px;
 }
 
 .work h3 {
   color: #a6a6a6;
-  text-align: left;
-  font-size: 20px;
-}
-
-.work a {
-  font-size: 40px;
+  text-align: center;
+  font-size: 27px;
+  margin-top: 20px;
 }
 
 /* Skills */
@@ -432,24 +429,27 @@ header.sticky {
   padding: 5px;
 }
 
-.pro-langs h2 {
-  color: #a6a6a6;
+.pro-langs a {
+  font-size: 42px;
 }
 
 .tool-frames {
   padding: 5px;
-  align-items: center;
+}
+
+.tool-frames a {
+  font-size: 42px;
 }
 
 /* Projects */
 .project-title h1 {
-  font-size: 45px;
+  font-size: 47px;
   text-align: center;
   padding: 10px;
 }
 
 .project-title h2 {
-  font-size: 25px;
+  font-size: 27px;
   text-align: center;
   padding-bottom: 15px;
   color: #a6a6a6;
@@ -474,18 +474,18 @@ header.sticky {
 .project-row i {
   color: deepskyblue;
   margin-bottom: 20px;
-  font-size: 44px;
+  font-size: 47px;
 }
 
 .project-row h2 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bolder;
   margin-bottom: 15px;
 }
 
 .project-row p {
   color: #a6a6a6;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .project-row:hover {
@@ -498,7 +498,39 @@ header.sticky {
     padding: 37px 7%;
   }
   .work h1 {
-    font-size: 38px;
+    font-size: 39px;
+  }
+  .work h3 {
+    font-size: 19px;
+  }
+  .work a {
+    font-size: 37px;
+  }
+  .project-title h1 {
+    font-size: 39px;
+  }
+  .project-title h2 {
+    font-size: 23px;
+  }
+  .project-row {
+    padding: 48px 26px;
+  }
+  .project-row i {
+    font-size: 40px;
+  }
+  .project-row h2 {
+    font-size: 21px;
+  }
+  .project-row p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .work {
+    padding: 34px 4%;
+  }
+  .work h1 {
+    font-size: 36px;
   }
   .work h3 {
     font-size: 17px;
@@ -507,42 +539,10 @@ header.sticky {
     font-size: 36px;
   }
   .project-title h1 {
-    font-size: 38px;
+    font-size: 37px;
   }
   .project-title h2 {
     font-size: 21px;
-  }
-  .project-row {
-    padding: 48px 26px;
-  }
-  .project-row i {
-    font-size: 39px;
-  }
-  .project-row h2 {
-    font-size: 20px;
-  }
-  .project-row p {
-    font-size: 13px;
-  }
-}
-@media (max-width: 768px) {
-  .work {
-    padding: 34px 4%;
-  }
-  .work h1 {
-    font-size: 35px;
-  }
-  .work h3 {
-    font-size: 15px;
-  }
-  .work a {
-    font-size: 34px;
-  }
-  .project-title h1 {
-    font-size: 36px;
-  }
-  .project-title h2 {
-    font-size: 19px;
   }
   .project-content {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -551,13 +551,13 @@ header.sticky {
     padding: 44px 23px;
   }
   .project-row i {
-    font-size: 35px;
+    font-size: 36px;
   }
   .project-row h2 {
-    font-size: 18px;
+    font-size: 19px;
   }
   .project-row p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (max-width: 480px) {
@@ -565,19 +565,19 @@ header.sticky {
     padding: 28px 2%;
   }
   .work h1 {
-    font-size: 33px;
+    font-size: 34px;
   }
   .work h3 {
-    font-size: 12px;
+    font-size: 13px;
   }
   .work a {
-    font-size: 32px;
-  }
-  .project-title h1 {
     font-size: 33px;
   }
+  .project-title h1 {
+    font-size: 34px;
+  }
   .project-title h2 {
-    font-size: 17px;
+    font-size: 18px;
   }
   .project-content {
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
@@ -586,13 +586,13 @@ header.sticky {
     padding: 41px 20px;
   }
   .project-row i {
-    font-size: 32px;
+    font-size: 33px;
   }
   .project-row h2 {
-    font-size: 16px;
+    font-size: 17px;
   }
   .project-row p {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 /* ---------- CONTACT ---------- */
@@ -839,7 +839,7 @@ footer h2 {
 footer h3 {
   text-align: center;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* Smaller Devices */
@@ -849,7 +849,7 @@ footer h3 {
     font-size: 21px;
   }
   footer h3 {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 @media (max-width: 768px) {
@@ -858,7 +858,7 @@ footer h3 {
     font-size: 19px;
   }
   footer h3 {
-    font-size: 11px;
+    font-size: 14px;
   }
 }
 @media (max-width: 480px) {
@@ -867,6 +867,6 @@ footer h3 {
     font-size: 17px;
   }
   footer h3 {
-    font-size: 10px;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */

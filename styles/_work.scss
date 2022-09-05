@@ -7,16 +7,14 @@
 
 .work h1 {
     text-align: center;
-    font-size: 45px;
-}
-.work h3 {
-    color: #a6a6a6;
-    text-align: left;
-    font-size: 20px;
+    font-size: 47px;
 }
 
-.work a {
-    font-size: 40px;
+.work h3 {
+    color: #a6a6a6;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 20px;
 }
 
 /* Skills */
@@ -24,24 +22,27 @@
     padding: 5px;
 }
 
-.pro-langs h2 {
-    color: #a6a6a6;
+.pro-langs a {
+    font-size: 42px;
 }
 
 .tool-frames {
     padding: 5px;
-    align-items: center;
+}
+
+.tool-frames a {
+    font-size: 42px;
 }
 
 /* Projects */
 .project-title h1 {
-    font-size: 45px;
+    font-size: 47px;
     text-align: center;
     padding: 10px;
 }
 
 .project-title h2 {
-    font-size: 25px;
+    font-size: 27px;
     text-align: center;
     padding-bottom: 15px;
     color: #a6a6a6;
@@ -66,18 +67,18 @@
 .project-row i {
     color: deepskyblue;
     margin-bottom: 20px;
-    font-size: 44px;
+    font-size: 47px;
 }
 
 .project-row h2 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bolder;
     margin-bottom: 15px;
 }
 
 .project-row p {
     color: #a6a6a6;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .project-row:hover {
@@ -91,7 +92,48 @@
     }
     
     .work h1 {
-        font-size: 38px;
+        font-size: 39px;
+    }
+    .work h3 {
+        font-size: 19px;
+    }
+    
+    .work a {
+        font-size: 37px;
+    }
+
+    .project-title h1 {
+        font-size: 39px;
+    }
+    
+    .project-title h2 {
+        font-size: 23px;
+    }
+    
+    .project-row {
+        padding: 48px 26px;
+    }
+
+    .project-row i {
+        font-size: 40px;
+    }
+    
+    .project-row h2 {
+        font-size: 21px;
+    }
+
+    .project-row p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .work {
+        padding: 34px 4%;
+    }
+
+    .work h1 {
+        font-size: 36px;
     }
     .work h3 {
         font-size: 17px;
@@ -102,52 +144,11 @@
     }
 
     .project-title h1 {
-        font-size: 38px;
+        font-size: 37px;
     }
     
     .project-title h2 {
         font-size: 21px;
-    }
-    
-    .project-row {
-        padding: 48px 26px;
-    }
-
-    .project-row i {
-        font-size: 39px;
-    }
-    
-    .project-row h2 {
-        font-size: 20px;
-    }
-
-    .project-row p {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 768px) {
-    .work {
-        padding: 34px 4%;
-    }
-
-    .work h1 {
-        font-size: 35px;
-    }
-    .work h3 {
-        font-size: 15px;
-    }
-    
-    .work a {
-        font-size: 34px;
-    }
-
-    .project-title h1 {
-        font-size: 36px;
-    }
-    
-    .project-title h2 {
-        font-size: 19px;
     }
 
     .project-content {
@@ -159,15 +160,15 @@
     }
     
     .project-row i {
-        font-size: 35px;
+        font-size: 36px;
     }
     
     .project-row h2 {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .project-row p {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -177,22 +178,22 @@
     }
 
     .work h1 {
-        font-size: 33px;
+        font-size: 34px;
     }
     .work h3 {
-        font-size: 12px;
+        font-size: 13px;
     }
     
     .work a {
-        font-size: 32px;
+        font-size: 33px;
     }
 
     .project-title h1 {
-        font-size: 33px;
+        font-size: 34px;
     }
     
     .project-title h2 {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .project-content {
@@ -203,14 +204,14 @@
     }
     
     .project-row i {
-        font-size: 32px;
+        font-size: 33px;
     }
     
     .project-row h2 {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .project-row p {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
